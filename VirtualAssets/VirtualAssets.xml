@@ -1,0 +1,32 @@
+<stubs version="2"><jms providerURL="" initialContext="" useReplyTo="true" type="" messageSelector="" queueConnectionFactory="" destinationQueue="" replyToQueue="" topicConnectionFactory="" publishTopic="" subscribeTopic="" username="" password="" workerCount="1">
+<jmsProperties>
+</jmsProperties>
+<jmsSharedSettings xmlVersion="5" productVersion="0">
+ <JMSSharedSettings className="com.parasoft.net.jms.JMSSharedSettings" version="1.1">
+  <putConnectionId>null</putConnectionId>
+  <getConnectionId>null</getConnectionId>
+ </JMSSharedSettings>
+</jmsSharedSettings></jms><mq queueManager="" channel="" putQueue="" getQueue="" mq_host="" applicationIdData="" mq_port="1414" useReplyTo="false" username="" password="AA==" ccdtFile="" settingsMode="default" useSSL="false" sslCipherSuite="" sslPeerName="" sslKeyStoreLocation="" sslKeyStoreType="" sslKeyStorePassword="AA==" sslTrustAll="false" sslTrustStoreLocation="" sslTrustStoreType="" sslTrustStorePassword="AA==" workerCount="1"><mqSharedSettings xmlVersion="5" productVersion="0">
+ <MQSharedSettings className="com.parasoft.net.mq.MQSharedSettings" version="1.1">
+  <putManagerId>null</putManagerId>
+  <getManagerId>null</getManagerId>
+ </MQSharedSettings>
+</mqSharedSettings></mq><custom selected="-1"></custom><reporting xmlVersion="5" productVersion="0">
+ <ReportingConfiguration className="com.parasoft.stub.report.ReportingConfiguration" version="1.6">
+  <JMSConnectionSelector className="com.parasoft.net.jms.JMSConnectionSelector" version="1.3">
+   <provider>7</provider>
+   <JMSConnectionSettings className="com.parasoft.net.jms.JMSConnectionSettings" version="1.6.2">
+    <uri>vm://ParasoftStatisticsBroker?create=false</uri>
+    <destination>PARASOFT_SERVER_STATISTICS</destination>
+   </JMSConnectionSettings>
+  </JMSConnectionSelector>
+  <JMSConnectionSelector className="com.parasoft.net.jms.JMSConnectionSelector" version="1.3">
+   <provider>7</provider>
+   <JMSConnectionSettings className="com.parasoft.net.jms.JMSConnectionSettings" version="1.6.2">
+   </JMSConnectionSettings>
+  </JMSConnectionSelector>
+ </ReportingConfiguration>
+</reporting><connectionConfigurations xmlVersion="5" productVersion="0">
+ <ConnectionConfigurations className="com.parasoft.stub.connection.ConnectionConfigurations" version="1.3">
+ </ConnectionConfigurations>
+</connectionConfigurations></stubs>

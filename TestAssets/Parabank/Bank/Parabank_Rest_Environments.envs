@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments xmlns="http://www.parasoft.com/schema/environment/1.0" product="SOAtest">
+   <Environment name="localhost">
+      <Variable>
+         <Name>SWAGGER</Name>
+         <Value mask="false">http://parabank.parasoft.com/parabank/services/bank/swagger.yaml</Value>
+      </Variable>
+      <Variable>
+         <Name>BASEURL</Name>
+         <Value mask="false">http://localhost:8080/parabank/services/bank</Value>
+      </Variable>
+      <Variable>
+         <Name>192_168_56_101_BASE_URL</Name>
+         <Value mask="false">http://localhost:8080</Value>
+      </Variable>
+      <Variable>
+         <Name>HOST</Name>
+         <Value mask="false">localhost</Value>
+      </Variable>
+      <Variable>
+         <Name>username</Name>
+         <Value mask="false">****</Value>
+      </Variable>
+      <Variable>
+         <Name>password</Name>
+         <Value mask="false">****</Value>
+      </Variable>
+   </Environment>
+   <Environment name="qa1.parasoft.com">
+      <Variable>
+         <Name>SWAGGER</Name>
+         <Value mask="false">http://parabank.parasoft.com/parabank/services/bank/swagger.yaml</Value>
+      </Variable>
+      <Variable>
+         <Name>BASEURL</Name>
+         <Value mask="false">http://qa1.parasoft.com:8090/parabank/services/bank</Value>
+      </Variable>
+      <Variable>
+         <Name>192_168_56_101_BASE_URL</Name>
+         <Value mask="false">http://qa1.parasoft.com:8090</Value>
+      </Variable>
+      <Variable>
+         <Name>HOST</Name>
+         <Value mask="false">qa1.parasoft.com</Value>
+      </Variable>
+      <Variable>
+         <Name>username</Name>
+         <Value mask="true">AgAAACDUAL7+J5kyVY7KjFKQZ9xh86QSfYznkn1kdu/1Dgwv6A==</Value>
+      </Variable>
+      <Variable>
+         <Name>password</Name>
+         <Value mask="true">AgAAACDrGf5UDF8CIVG3/6BJCTvDthogpKX86fQ61qMhiEyrGg==</Value>
+      </Variable>
+   </Environment>
+   <Environment name="parabank.parasoft.com">
+      <Variable>
+         <Name>SWAGGER</Name>
+         <Value mask="false">http://parabank.parasoft.com/parabank/services/bank/swagger.yaml</Value>
+      </Variable>
+      <Variable>
+         <Name>BASEURL</Name>
+         <Value mask="false">http://parabank.parasoft.com/parabank/services/bank</Value>
+      </Variable>
+      <Variable>
+         <Name>192_168_56_101_BASE_URL</Name>
+         <Value mask="false">http://parabank.parasoft.com</Value>
+      </Variable>
+      <Variable>
+         <Name>HOST</Name>
+         <Value mask="false">parabank.parasoft.com</Value>
+      </Variable>
+      <Variable>
+         <Name>username</Name>
+         <Value mask="false">****</Value>
+      </Variable>
+      <Variable>
+         <Name>password</Name>
+         <Value mask="false">****</Value>
+      </Variable>
+   </Environment>
+   <Environment name="dev1.parasoft.com">
+      <Variable>
+         <Name>SWAGGER</Name>
+         <Value mask="false">http://dev1.parasoft.com:8091/parabank/services/bank/swagger.yaml</Value>
+      </Variable>
+      <Variable>
+         <Name>BASEURL</Name>
+         <Value mask="false">http://dev1.parasoft.com:8091/parabank/services/bank</Value>
+      </Variable>
+      <Variable>
+         <Name>192_168_56_101_BASE_URL</Name>
+         <Value mask="false">http://dev1.parasoft.com:8091</Value>
+      </Variable>
+      <Variable>
+         <Name>HOST</Name>
+         <Value mask="false">dev1.parasoft.com</Value>
+      </Variable>
+      <Variable>
+         <Name>username</Name>
+         <Value mask="true">AgAAACACXQ1bqomsbZl4OFXSsTN6klNXvwJ8sr8SYY7V/Xi/qw==</Value>
+      </Variable>
+      <Variable>
+         <Name>password</Name>
+         <Value mask="true">AgAAACCDs60alZng/j1DAFlMB1ZvdUiTbMn+xOz2WH1A2cQBhQ==</Value>
+      </Variable>
+   </Environment>
+   
+   
+   
+</Environments>
