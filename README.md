@@ -7,3 +7,5 @@ Repo: https://github.com/whaaker/SOAVirtDemoExamples
 3. Import > Projects from Git > ... > Import Existing Eclipse Projects > [Select all projects in table]
 	- If you do not wish to edit files outside of these Projects, like .gitignore or README.md, then you do not need to import the SOAVirtDemoExamples Project.  You can just import the ProvisioningAssets, TestAssets, and VirtualAssets Projects.
 	- If you do wish to edit files from the root directory of the repo that start with '.' then you have to click the 3 dots in Project Explorer > Filters and Customization... > uncheck .* resources.
+4. Import parasoft_preferences.properties for JDBC Driver setup to be able to run DB Tools for Parabank tests.
+5. Create "OAuth2" data repository database in Embedded Server and import from DataRepo_exports to be able to run Auth example tests.

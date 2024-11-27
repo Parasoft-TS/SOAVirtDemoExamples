@@ -1,0 +1,27 @@
+<proxyConfiguration xmlVersion="5" productVersion="0">
+ <ProxyConfiguration className="com.parasoft.stub.proxy.ProxyConfiguration" version="1.2.2">
+  <id>262c2cc0-2b4d-4b49-9c3c-2901fac877d2-1637288959177</id>
+  <proxyCount>1</proxyCount>
+  <HttpProxyConnection className="com.parasoft.stub.proxy.HttpProxyConnection" version="1.11.4">
+   <append>true</append>
+   <file>recorded_traffic\%n_%d_%t.txt</file>
+   <host>null</host>
+   <port>80</port>
+   <listenPath>/parabank-component-testing/services/bank</listenPath>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <keystoreType>PKCS12</keystoreType>
+    <truststoreType>PKCS12</truststoreType>
+    <forwardPath>/parabank/services/bank/</forwardPath>
+    <host>host.virt.internal</host>
+    <port>8090</port>
+   </HttpProxyTargetConnection>
+   <HttpProxyTargetConnection className="com.parasoft.stub.proxy.HttpProxyTargetConnection" version="1.2">
+    <keystoreType>PKCS12</keystoreType>
+    <truststoreType>PKCS12</truststoreType>
+    <forwardPath>/parabank/services/bank/</forwardPath>
+    <host>dev1.parasoft.com</host>
+    <port>8094</port>
+   </HttpProxyTargetConnection>
+  </HttpProxyConnection>
+ </ProxyConfiguration>
+</proxyConfiguration>
