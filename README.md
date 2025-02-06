@@ -1,7 +1,7 @@
-## SOAVirt Demo Examples
+# SOAVirt Demo Examples
 This is a repository that contains demo examlpes for SOAtest/Virtualize that you can import into your workspace.
 
-### Instructions to import into a clean SOAtest/Virtualize Workspace:
+## Instructions to import into a clean SOAtest/Virtualize Workspace:
 1. Launch SOAtest/Virtualize and point to a newly created folder.
 2. Delete the default ProvisioningAssets, TestAssets, and VirtualAssets projects, including from disk.
 3. Import > Projects from Git > ... > Import Existing Eclipse Projects > [Select all projects in table]
