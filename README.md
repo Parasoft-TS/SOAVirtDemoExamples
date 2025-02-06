@@ -1,5 +1,5 @@
 ## SOAVirt Demo Examples
-Repo: https://github.com/whaaker/SOAVirtDemoExamples
+This is a repository that contains demo examlpes for SOAtest/Virtualize that you can import into your workspace.
 
 ### Instructions to import into a clean SOAtest/Virtualize Workspace:
 1. Launch SOAtest/Virtualize and point to a newly created folder.
